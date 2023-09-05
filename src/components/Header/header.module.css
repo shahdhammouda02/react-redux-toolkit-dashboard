@@ -1,0 +1,32 @@
+.header {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(108, 108, 108, 0.15);
+  background-color: #fff;
+}
+.header .title {
+  font-size: 27px;
+  font-weight: 600;
+  color: RGB(138, 43, 226);
+}
+.header .icons {
+  font-size: 22px;
+  color: RGB(138, 43, 226);
+}
+
+@media (max-width: 768px) {
+  .header .title {
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+  }
+  .header .logo {
+    width: 90px;
+  }
+  .header .icons {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=header.module.css.map */

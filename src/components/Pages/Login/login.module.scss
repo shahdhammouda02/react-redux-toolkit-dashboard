@@ -1,0 +1,43 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .login {
+      background-color: rgb(207, 186, 228);
+      padding: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center; 
+      max-width: 350px; 
+      width: 100%; 
+      border-radius: 20px;
+
+      .logo{
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      h2{
+        color: #fff;
+        font-size: 22px;
+
+      }
+      .btn{
+        background-color: #fff;
+        color: RGB(138, 43, 226);
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .labels{
+        display: flex;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 8px;
+        color: RGB(138, 43, 226);
+      }
+    }
+  }
+
+  

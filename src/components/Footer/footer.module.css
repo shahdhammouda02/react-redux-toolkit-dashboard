@@ -1,0 +1,15 @@
+.footer {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  padding-top: 10px;
+}
+.footer .links {
+  font-size: 15px;
+  font-weight: 600;
+  color: RGB(138, 43, 226);
+}/*# sourceMappingURL=footer.module.css.map */

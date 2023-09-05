@@ -1,0 +1,27 @@
+$color:RGB(138, 43, 226);
+.footer{
+    flex-grow: 1; 
+  overflow-y: auto; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+   padding-top: 10px;
+    .links{
+      font-size: 15px;
+      font-weight: 600;
+      color: $color;
+    }
+  }
+
+  @media (max-width:768px){
+    .footer {
+      flex-direction: column;
+      text-align: center; 
+    }
+      .links {
+      margin: 10px 0;
+      font-size: 14px; 
+    }
+  }

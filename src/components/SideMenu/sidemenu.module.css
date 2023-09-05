@@ -1,0 +1,18 @@
+.sidemenu {
+  background-color: rgb(207, 186, 228);
+  height: 100vh;
+}
+.sidemenu .logo {
+  padding: 10px;
+}
+.sidemenu .menu {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(207, 186, 228);
+  border: none;
+  color: #fff;
+  padding-top: 10px;
+}
+.sidemenu .menu .menuitem {
+  box-shadow: 1px 1px 1px #fff;
+}/*# sourceMappingURL=sidemenu.module.css.map */

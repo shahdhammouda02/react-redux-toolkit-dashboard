@@ -1,0 +1,25 @@
+$bg-color: rgb(207, 186, 228);
+$color: #fff;
+.sidemenu{
+    background-color: $bg-color;
+    height: 100vh;
+    
+    .logo{
+        padding: 10px;
+        
+    }
+    .menu{
+        font-size: 16px;
+        font-weight: 600;
+        background-color: $bg-color;
+        border: none;
+        color: $color;
+        padding-top: 10px;   
+
+        .menuitem{
+            box-shadow: 1px 1px 1px  #fff;
+           
+        }
+    }
+    
+}
